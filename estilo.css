@@ -1,13 +1,23 @@
 html {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: terrot;
+    background-color: #000000;
+    color: #d6cfcf;
+    font-family: terror;
 }
+
+h1 {
+    color: #d6cfcf;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
 body {
     margin: 0;
     padding: 20px;
     background-image: url('fondo.jpg');
     background-repeat: no-repeat;
-    width: 400px auto ;
-    height: 200px auto ;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    box-sizing: border-box;
 }
