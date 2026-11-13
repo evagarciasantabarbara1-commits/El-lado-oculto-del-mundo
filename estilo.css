@@ -1,5 +1,13 @@
 html {
     background-color: #f0f0f0;
     color: #333;
-    font-family: heartbreak, sans-serif;
+    font-family: terrot;
+}
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    width: 400px auto ;
+    height: 200px auto ;
 }
