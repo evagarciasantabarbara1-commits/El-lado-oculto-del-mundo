@@ -54,7 +54,39 @@ main {
     text-align: center;
 }
 
+.titulos{
+    margin: 70px;
+}
+
+.titulos:hover {
+    color: #8b0000;
+}
+
+
 footer {
     text-align: center;
     padding: 20px;
+    
+}
+
+.fotos {
+  
+  width: 800px;       
+  max-width: 100%;     
+  height: auto;       
+
+  
+  display: block;
+  margin: 20px auto;   
+  border-radius: 6px;  
+  border: 1px solid #333;
+  filter: grayscale(40%) contrast(115%) brightness(85%); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.historias{
+    margin-bottom: auto;
+    margin-left: 30px;
+    margin-right: 20px;
 }
